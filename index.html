@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvraj Purbia - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .bg-hero {
+            background-image: url('bg1.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .text-gradient {
+            background: -webkit-linear-gradient(45deg, #000000, #7a7a7a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .nav-link {
+            transition: color 0.3s;
+        }
+        .nav-link:hover {
+            color: #3B82F6;
+        }
+    </style>
+</head>
+<body class="bg-black text-gray-800 font-sans">
+
+    <!-- Hero Section -->
+    <header class="bg-hero h-screen flex items-center justify-center">
+        <div class="text-center">
+            <h1 class="text-6xl font-bold text-white mt-4 text-gradient">Hey I am Yuvraj Purbia</h1>
+            <p class="text-2xl font-semibold text-black mt-4">A Software Developer</p>
+            <a href="#about" class="mt-8 inline-block bg-blue-500 text-white py-3 px-6 rounded-full text-lg hover:bg-blue-700 transition duration-300">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-800">YUVRAJ PURBIA</a>
+            <div>
+                <a href="#about" class="text-gray-800 nav-link mx-2">About</a>
+                <a href="#resume" class="text-gray-800 nav-link mx-2">Resume</a>
+                <a href="#skills" class="text-gray-800 nav-link mx-2">Skills</a>
+                <a href="#projects" class="text-gray-800 nav-link mx-2">Projects</a>
+                <a href="#experience" class="text-gray-800 nav-link mx-2">Experience</a>
+                <a href="#contact" class="text-gray-800 nav-link mx-2">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto px-6 py-16">
+        <h2 class="text-4xl font-bold text-center text-white mb-8">About Me</h2>
+        <div class="flex flex-wrap items-center justify-center">
+            <div class="w-full lg:w-1/2 px-4 mb-6 lg:mb-0">
+                <img src="WhatsApp Image 2024-07-06 at 12.20.26 AM.jpeg" alt="Profile Picture" class="rounded-full mx-auto w-48 h-48 shadow-lg">
+            </div>
+            <div class="w-full lg:w-1/2 px-4">
+                <p class="text-lg text-gray-100 leading-loose">Hello! I'm Yuvraj Purbia, a passionate software developer with a knack for creating elegant solutions in the least amount of time. I specialize in front-end development, making interactive and dynamic web applications. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="bg-gray-800 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-white mb-8">Resume</h2>
+            <div class="flex justify-center">
+                <a href="YuvrajResume_DBS.pdf" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded-full shadow-md hover:bg-blue-700 transition duration-300">Checkout My Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-white py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Skills</h2>
+            <div class="flex flex-wrap justify-center">
+                
+                <div class="w-full md:w-1/3 lg:w-3/4 px-4 mb-6">
+                    <div class="bg-gray-200 p-6 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">• AngularJS, ReactJS, HTML-Tailwind CSS, App Development, Typescript, Jenkins & Figma. <br>
+                            • DevOps, Docker, Linux, OS, Agile Software Development, Software Testing, APIs, SQL & Databases.<br>
+                            • Artificial Intelligence-Machine Learning, NLP & NFTs.<br>
+                            • Data Structures and algorithms with C++, Data Analysis, OOPs, Spring Boot.</h3>
+                       
+                    </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto px-6 py-16">
+        <h2 class="text-4xl font-bold text-center text-white mb-8">Projects</h2>
+        <div class="flex flex-wrap justify-center">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+                <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Plant Disease Recognition using Machine Learning</h3>
+                    <p class="text-gray-600">
+                        • Developed a robust plant disease recognition system using advanced Deep Learning algorithms (ResNet34,
+                        ResNet50, VGG16, CNN), trained on a diverse dataset of plant images for accurate disease identification. <br>
+                        • Achieved 98% accuracy with the ResNet50 model, showcasing superior performance in disease classification.<br></p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+                <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Online Journal Website (Full stack)</h3>
+                    <p class="text-gray-600">
+                        • Engineered a cutting-edge online journal platform using MySQL, HTML/Tailwind CSS/AngularJS & PHP. <br>
+                        • Optimized for superior content creation, sharing, and engagement, resulting in a 40% increase in user interactions.</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+                <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Online Voting System</h3>
+                    <p class="text-gray-600">
+                        • Formulated and deployed a user-centric online voting system leveraging HTML, Tailwind CSS React &Typescript
+                        for responsive design, and AngularJS for robust and intuitive functionality, ensuring a seamless user experience. <br>
+                        • Enabled efficient and secure digital voting processes, resulting in 60% more feasible voting. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Experience</h2>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+                    <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Brandspark Technologies   </h3>
+                        <p class="text-gray-600">
+                            Frontend Intern (Jan 2024 - June 2024)<br>
+                            • Enhanced AngularJS, ReactJS and TypeScript proficiency by leading a high-impact project, resulting in 40% faster
+                            page load times and 25% increase in app engagement. <br>
+                            • Revamped user interface design using customer feedback and heatmaps, leading to a 25% boost in user engagement,
+                            20% increase in conversion rates and up to 40 % less latencies.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+                    <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">NASH FASHIONS INDIA LTD.</h3>
+                        <p class="text-gray-600"> 
+                            Web Developer Intern (Jan 2023 – July 2023) <br>
+                            • Constructed their website utilizing Angular, TypeScript, HTML, and Tailwind CSS.<br>
+                            • Developed and implemented a responsive design strategy across 15+ websites, enhancing user interfaces and
+                            increasing mobile user engagement by 40%, leading to a 25% boost in overall traffic and user satisfaction.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-6">
+                    <div class="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">MIT WPU - TEXEPHYR </h3>
+                        <p class="text-gray-600">Technical Team Member (Feb 2022 –Aug 2022) <br>
+                            • Contributed to innovative projects, collaborated on problem-solving. <br>
+                            • Participated in skill-building workshops, enriching the club's mission of fostering technological excellence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto px-6 py-16 flex-wrap">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Contact</h2>
+        
+            <div class="mt-8 text-center" > 
+                <p class="text-lg text-white">Phone: +91 9024015370</p>
+                <p class="text-lg text-white">Email: purbiayuvraj23@gmail.com</p>
+                <p class="text-lg text-white">GitHub: <a href="https://github.com/yuvrajpurbia" class="text-blue-600 hover:underline">github.com/yuvrajpurbia</a></p>
+                <p class="text-lg text-white">LinkedIn: <a href="https://www.linkedin.com/in/yuvraj-purbia-464355210/" class="text-blue-600 hover:underline">linkedin.com/in/yuvrajpurbia</a></p>
+            </div>
+        
+    </section>
+
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto text-center text-white">
+            <p>&copy; 2024 Yuvraj Purbia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function submitForm() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (name && email && message) {
+                alert('Thank you for your message!');
+            } else {
+                alert('Please fill out all fields.');
+            }
+        }
+    </script>
+</body>
+</html>
